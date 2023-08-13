@@ -422,6 +422,9 @@ p {
     margin-top: 20px; /* Jarak enter di awal paragraf */
   } 
 
+  
+
+
 /* BREAKPOINTS */
 @media (max-width:1200px){
     html{
