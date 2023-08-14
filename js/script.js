@@ -153,10 +153,31 @@ function toggleMoreTextWeb() {
   }
 }
 
+const modal = document.getElementById('custom-modal');
+const closeButton = document.getElementsByClassName('close-button')[0];
 
+// Tampilkan modal
+function tampilkanModal() {
+  modal.style.display = 'block';
+}
 
+// Sembunyikan modal
+function sembunyikanModal() {
+  modal.style.display = 'none';
+}
 
+// Saat halaman dimuat, tampilkan modal secara otomatis
+window.onload = tampilkanModal;
 
+// Ketika tombol penutup diklik, sembunyikan modal
+closeButton.addEventListener('click', sembunyikanModal);
+
+// Ketika pengguna mengklik di luar modal, tutup modal
+window.addEventListener('click', function (event) {
+  if (event.target === modal) {
+    sembunyikanModal();
+  }
+});
 
 
 
