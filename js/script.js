@@ -56,9 +56,19 @@ document.addEventListener("DOMContentLoaded", function() {
     delay: 200 
   });
   
-  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+  ScrollReveal().reveal('.heading, .education-content', { origin: 'top' });
   ScrollReveal().reveal('.home-img, .services-container, .portofolio-box, .contact form', { origin: 'bottom' });
   ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+  ScrollReveal().reveal('.skills-content', { origin: 'bottom' });
+  ScrollReveal().reveal('.skills-column', { origin: 'bottom', interval: 150 });
+
+// Animasi untuk tulisan "Front-End Web Developer"
+ScrollReveal().reveal('.skills-column.front-end h3', { origin: 'left', delay: 200 });
+
+// Animasi untuk tulisan "Cyber Security"
+ScrollReveal().reveal('.skills-column.cyber h3', { origin: 'left', delay: 200 });
+  
+
 
 
 
