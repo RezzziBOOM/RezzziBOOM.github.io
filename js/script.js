@@ -1,4 +1,4 @@
-MediaKeyMessageEventdocument.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     let menuIcon = document.querySelector('#menu-icon');
     let navbarr = document.querySelector('.navbar');
   
