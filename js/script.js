@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+MediaKeyMessageEventdocument.addEventListener("DOMContentLoaded", function() {
     let menuIcon = document.querySelector('#menu-icon');
     let navbarr = document.querySelector('.navbar');
   
@@ -45,10 +45,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Inisialisasi ikon Feather
     feather.replace();
-
+w
 
 
   });
+
   ScrollReveal({ 
     reset: true ,
     distance: '80px',
