@@ -75,7 +75,7 @@ ScrollReveal().reveal('.skills-column.cyber h3', { origin: 'left', delay: 200 })
 
 /*========== Tulisan Gerak gerak===========*/
 const typed = new Typed('.multiple-text', {
-  strings: [ 'Graphic Designer' , 'Social Media Specialist','Cyber Security' , 'Front-End Web Developer'],
+  strings: [ 'Graphic Designer' , 'Design UI/UX', 'Social Media Specialist','Cyber Security' , 'Front-End Web Developer'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
